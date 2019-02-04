@@ -1,6 +1,7 @@
 // Handle these functions once the page loads
 $(document).ready(function () {
     collapsibleExpandable();
+    $('.tooltipped').tooltip();
 });
 
 // Materialize JS Component Functions

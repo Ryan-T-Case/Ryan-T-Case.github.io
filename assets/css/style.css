@@ -3,7 +3,19 @@
     text-align: justify;
 }
 
+.dev-icons {
+    font-size: 8em;
+}
+
+.skills-text {
+    font-size: 1rem;
+}
+
 /* Images */
 #about-img {
     border: 2px solid #36454f;
+}
+
+.dev-icons img {
+    height: 1em;
 }
