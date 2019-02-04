@@ -1,0 +1,9 @@
+/* Text Styling */
+.paragraph {
+    text-align: justify;
+}
+
+/* Images */
+#about-img {
+    border: 2px solid #36454f;
+}
