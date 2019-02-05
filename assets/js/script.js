@@ -1,7 +1,7 @@
 //Projects
 let projects = [{
     projectName: "demoDay",
-    imageURL: "assets/img/demoDay-logo.jpg",
+    imageURL: "assets/img/demoDay-logo.JPG",
     githubURL: "https://github.com/Ryan-T-Case/Demo",
     liveAppURL: "https://demoday-richmond.herokuapp.com/",
     description: "A MERN stack app designed specifically for use with job fairs and project fairs. This app is optimized for managing an event and allowing users to view and interact with the event and its presenters. Utilizing the Nexmo API, users can send SMS messages to presenters they wish to contact for an interview. Users with an admin sign on have access to adding projects, and viewing data visualization showing how successful the event is."
