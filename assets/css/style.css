@@ -11,6 +11,10 @@
     font-size: 1rem;
 }
 
+.toolbar-icon {
+    font-size: 1.5em;
+}
+
 /* Images */
 #about-img {
     border: 2px solid #36454f;
@@ -18,4 +22,16 @@
 
 .dev-icons img {
     height: 1em;
+}
+
+/* Positioning */
+
+.card-image {
+    position: relative;
+}
+
+.fixed-action-btn {
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
 }
