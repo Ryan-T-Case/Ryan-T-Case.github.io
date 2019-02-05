@@ -1,2 +1,2 @@
-# Ryan-T-Case.github.io
-My personal projects hosted on GitHub Pages
+# This is my professional porftolio!
+NOTE: Currently in development.
