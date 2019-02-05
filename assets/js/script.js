@@ -11,7 +11,6 @@ let projects = [{
 $(document).ready(function () {
     collapsibleExpandable();
     $('.tooltipped').tooltip();
-
     renderProjects();
 });
 
@@ -59,6 +58,7 @@ const renderProjects = () => {
         $('.fixed-action-btn').floatingActionButton({
             toolbarEnabled: true
         });
+        $('.tooltipped').tooltip();
     });
 
 }
