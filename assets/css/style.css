@@ -24,10 +24,20 @@
     height: 1em;
 }
 
-/* Positioning */
+/* Positioning and Sizing */
+.card {
+    width: 80%;
+    height: 60%;
+    margin: 2em;
+}
 
 .card-image {
     position: relative;
+}
+
+.card-image img {
+    height: 20em;
+    width: 20em;
 }
 
 .fixed-action-btn {
