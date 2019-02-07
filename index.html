@@ -23,6 +23,8 @@
     <!-- Devicon CDN -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -31,155 +33,193 @@
 
 </head>
 
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col s12">
-                <h1 class="center-align">Hi, my name is Ryan Case.</h1>
+<body class="indigo lighten-5">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h1 class="center-align heading">Hi, my name is Ryan Case.</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <h1 class="center-align heading">I am a Full-Stack Web Developer.</h1>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col s12">
-                <h1 class="center-align">I am a Full-Stack Web Developer.</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12">
-                <!-- Collapsible Content Menu -->
-                <ul class="collapsible expandable popout">
-                    <!-- About Me -->
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">person_outline</i>About</div>
-                        <div class="collapsible-body"><span>
-                                <div class="row">
-                                    <div class="col s12 l3 center-align">
-                                        <img class="circle responsive-img" id="about-img" src="./assets/img/profile-photo.jpg"
-                                            alt="Headshot of Ryan Case">
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <!-- Collapsible Content Menu -->
+                    <ul class="collapsible expandable popout">
+                        <!-- About Me -->
+                        <li>
+                            <div class="collapsible-header red lighten-1"><i class="material-icons">person_outline</i>About</div>
+                            <div class="collapsible-body white"><span>
+                                    <div class="row">
+                                        <div class="col s12 l3 center-align">
+                                            <img class="circle responsive-img" id="about-img" src="./assets/img/profile-photo.jpg"
+                                                alt="Headshot of Ryan Case">
+                                        </div>
+                                        <div class="col s12 l9">
+                                            <p class="paragraph">
+                                                I am a full-stack web developer from the Richmond, VA area. I graduated
+                                                from the UR Coding Bootcamp in February of 2019. This was the beginning
+                                                of
+                                                a career change in pursuit of a passion. Prior to that, I had obtained
+                                                a
+                                                Bachelor's degree in Psychology from Liberty University and was still
+                                                trying to figure out what I loved to do. It was through my love of
+                                                technology, solving problems, and creating things that I discovered my
+                                                love
+                                                for web development.
+                                            </p>
+                                            <p class="paragraph">
+                                                I love creating applications with responsive and visually appealing
+                                                UIs,
+                                                and dynamic features that solve a problem, make things easier for the
+                                                user,
+                                                or both! I'm always thinking of ways to both make an application simple
+                                                to
+                                                use and appealing to the user's eye. My Psychology background helps me
+                                                to
+                                                understand how others think, which has only been helpful to my ability
+                                                to
+                                                create user-friendly applications.
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div class="col s12 l9">
-                                        <p class="paragraph">
-                                            I am a full-stack web developer from the Richmond, VA area. I graduated
-                                            from the UR Coding Bootcamp in February of 2019. This was the beginning of
-                                            a career change in pursuit of a passion. Prior to that, I had obtained a
-                                            Bachelor's degree in Psychology from Liberty University and was still
-                                            trying to figure out what I loved to do. It was through my love of
-                                            technology, solving problems, and creating things that I discovered my love
-                                            for web development.
-                                        </p>
-                                        <p class="paragraph">
-                                            I love creating applications with responsive and visually appealing UIs,
-                                            and dynamic features that solve a problem, make things easier for the user,
-                                            or both! I'm always thinking of ways to both make an application simple to
-                                            use and appealing to the user's eye. My Psychology background helps me to
-                                            understand how others think, which has only been helpful to my ability to
-                                            create user-friendly applications.
-                                        </p>
+                                </span></div>
+                        </li>
+                        <!-- Skills -->
+                        <li>
+                            <div class="collapsible-header red lighten-2"><i class="material-icons">laptop_windows</i>Skills</div>
+                            <div class="collapsible-body white"><span>
+                                    <div class="row dev-icons">
+                                        <div class="col s6 m4 l2">
+                                            <i class="devicon-github-plain colored tooltipped" data-position="bottom"
+                                                data-tooltip="GitHub"></i>
+                                        </div>
+                                        <div class="col s6 m4 l2">
+                                            <i class="devicon-git-plain colored tooltipped" data-position="bottom"
+                                                data-tooltip="Git"></i>
+                                        </div>
+                                        <div class="col s6 m4 l2">
+                                            <i class="devicon-html5-plain colored tooltipped" data-position="bottom"
+                                                data-tooltip="HTML5"></i>
+                                        </div>
+                                        <div class="col s6 m4 l2">
+                                            <i class="devicon-css3-plain colored tooltipped" data-position="bottom"
+                                                data-tooltip="CSS3"></i>
+                                        </div>
+                                        <div class="col s6 m4 l2">
+                                            <i class="devicon-javascript-plain colored tooltipped" data-position="bottom"
+                                                data-tooltip="JavaScript"></i>
+                                        </div>
+                                        <div class="col s6 m4 l2">
+                                            <i class="devicon-nodejs-plain colored tooltipped" data-position="bottom"
+                                                data-tooltip="Node.js"></i>
+                                        </div>
                                     </div>
-                                </div>
-                            </span></div>
-                    </li>
-                    <!-- Skills -->
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">laptop_windows</i>Skills</div>
-                        <div class="collapsible-body"><span>
-                                <div class="row dev-icons">
-                                    <div class="col s6 m4 l2">
-                                        <i class="devicon-github-plain colored tooltipped" data-position="bottom"
-                                            data-tooltip="GitHub"></i>
+                                    <div class="row dev-icons">
+                                        <div class="col s6 m4 l2">
+                                            <i class="devicon-express-original colored tooltipped" data-position="bottom"
+                                                data-tooltip="Express.js"></i>
+                                        </div>
+                                        <div class="col s6 m4 l2">
+                                            <i class="devicon-react-original colored tooltipped" data-position="bottom"
+                                                data-tooltip="React.js"></i>
+                                        </div>
+                                        <div class="col s6 m4 l2">
+                                            <img class="circle responsive-img tooltipped" data-position="bottom"
+                                                data-tooltip="npm" src="./assets/img/npm-icon.jpg" alt="npm icon">
+                                        </div>
+                                        <div class="col s6 m4 l2">
+                                            <img class="responsive-img tooltipped" data-position="bottom" data-tooltip="yarn"
+                                                src="./assets/img/yarn-icon.png" alt="yarn icon">
+                                        </div>
+                                        <div class="col s6 m4 l2">
+                                            <i class="devicon-bootstrap-plain colored tooltipped" data-position="bottom"
+                                                data-tooltip="Bootstrap"></i>
+                                        </div>
+                                        <div class="col s6 m4 l2">
+                                            <img class="responsive-img tooltipped" data-position="bottom" data-tooltip="Materialize"
+                                                src="./assets/img/materialize-icon.png" alt="materialize icon">
+                                        </div>
                                     </div>
-                                    <div class="col s6 m4 l2">
-                                        <i class="devicon-git-plain colored tooltipped" data-position="bottom"
-                                            data-tooltip="Git"></i>
+                                    <div class="row dev-icons">
+                                        <div class="col s6 m4 l2">
+                                            <i class="devicon-jquery-plain colored tooltipped" data-position="bottom"
+                                                data-tooltip="jQuery"></i>
+                                        </div>
+                                        <div class="col s6 m4 l2">
+                                            <i class="devicon-mysql-plain colored tooltipped" data-position="bottom"
+                                                data-tooltip="mySQL"></i>
+                                        </div>
+                                        <div class="col s6 m4 l2">
+                                            <i class="devicon-sequelize-plain colored tooltipped" data-position="bottom"
+                                                data-tooltip="Sequelize"></i>
+                                        </div>
+                                        <div class="col s6 m4 l2">
+                                            <i class="devicon-mongodb-plain-wordmark colored tooltipped" data-position="bottom"
+                                                data-tooltip="MongoDB"></i>
+                                        </div>
+                                        <div class="col s6 m4 l2">
+                                            <i class="devicon-heroku-plain colored tooltipped" data-position="bottom"
+                                                data-tooltip="Heroku"></i>
+                                        </div>
+                                        <div class="col s6 m4 l2">
+                                            <img class="responsive-img tooltipped" data-position="bottom" data-tooltip="Data Vizualization"
+                                                src="./assets/img/dataviz-icon.png" alt="Data Vizualization Icon">
+                                        </div>
                                     </div>
-                                    <div class="col s6 m4 l2">
-                                        <i class="devicon-html5-plain colored tooltipped" data-position="bottom"
-                                            data-tooltip="HTML5"></i>
-                                    </div>
-                                    <div class="col s6 m4 l2">
-                                        <i class="devicon-css3-plain colored tooltipped" data-position="bottom"
-                                            data-tooltip="CSS3"></i>
-                                    </div>
-                                    <div class="col s6 m4 l2">
-                                        <i class="devicon-javascript-plain colored tooltipped" data-position="bottom"
-                                            data-tooltip="JavaScript"></i>
-                                    </div>
-                                    <div class="col s6 m4 l2">
-                                        <i class="devicon-nodejs-plain colored tooltipped" data-position="bottom"
-                                            data-tooltip="Node.js"></i>
-                                    </div>
-                                </div>
-                                <div class="row dev-icons">
-                                    <div class="col s6 m4 l2">
-                                        <i class="devicon-express-original colored tooltipped" data-position="bottom"
-                                            data-tooltip="Express.js"></i>
-                                    </div>
-                                    <div class="col s6 m4 l2">
-                                        <i class="devicon-react-original colored tooltipped" data-position="bottom"
-                                            data-tooltip="React.js"></i>
-                                    </div>
-                                    <div class="col s6 m4 l2">
-                                        <img class="circle responsive-img tooltipped" data-position="bottom"
-                                            data-tooltip="npm" src="./assets/img/npm-icon.jpg" alt="npm icon">
-                                    </div>
-                                    <div class="col s6 m4 l2">
-                                        <img class="responsive-img tooltipped" data-position="bottom" data-tooltip="yarn"
-                                            src="./assets/img/yarn-icon.png" alt="yarn icon">
-                                    </div>
-                                    <div class="col s6 m4 l2">
-                                        <i class="devicon-bootstrap-plain colored tooltipped" data-position="bottom"
-                                            data-tooltip="Bootstrap"></i>
-                                    </div>
-                                    <div class="col s6 m4 l2">
-                                        <img class="responsive-img tooltipped" data-position="bottom" data-tooltip="Materialize"
-                                            src="./assets/img/materialize-icon.png" alt="materialize icon">
-                                    </div>
-                                </div>
-                                <div class="row dev-icons">
-                                    <div class="col s6 m4 l2">
-                                        <i class="devicon-jquery-plain colored tooltipped" data-position="bottom"
-                                            data-tooltip="jQuery"></i>
-                                    </div>
-                                    <div class="col s6 m4 l2">
-                                        <i class="devicon-mysql-plain colored tooltipped" data-position="bottom"
-                                            data-tooltip="mySQL"></i>
-                                    </div>
-                                    <div class="col s6 m4 l2">
-                                        <i class="devicon-sequelize-plain colored tooltipped" data-position="bottom"
-                                            data-tooltip="Sequelize"></i>
-                                    </div>
-                                    <div class="col s6 m4 l2">
-                                        <i class="devicon-mongodb-plain-wordmark colored tooltipped" data-position="bottom"
-                                            data-tooltip="MongoDB"></i>
-                                    </div>
-                                    <div class="col s6 m4 l2">
-                                        <i class="devicon-heroku-plain colored tooltipped" data-position="bottom"
-                                            data-tooltip="Heroku"></i>
-                                    </div>
-                                    <div class="col s6 m4 l2">
-                                        <img class="responsive-img tooltipped" data-position="bottom" data-tooltip="Data Vizualization"
-                                            src="./assets/img/dataviz-icon.png" alt="Data Vizualization Icon">
-                                    </div>
-                                </div>
-                            </span></div>
-                    </li>
-                    <!-- Portfolio Gallery -->
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">photo_library</i>Portfolio Gallery</div>
-                        <div class="collapsible-body">
-                            <div class="row card-container">
+                                </span></div>
+                        </li>
+                        <!-- Portfolio Gallery -->
+                        <li>
+                            <div class="collapsible-header red lighten-4"><i class="material-icons">photo_library</i>Portfolio
+                                Gallery</div>
+                            <div class="collapsible-body white">
+                                <div class="row card-container">
 
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col s12">
-                <h2 class="center-align">Contact Me</h2>
+    </main>
+    <footer class="page-footer indigo lighten-4">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h5 class="white-text center-align">Contact Me</h5>
+                </div>
+            </div>
+            <div class="row center-align">
+                <div class="col s6 m3">
+                    <a href="mailto: Ryan_Case@outlook.com"><i class="material-icons contact-icon">mail</i></a>
+                </div>
+                <div class="col s6 m3">
+                    <a href="https://github.com/Ryan-T-Case"><i class="devicon-github-plain contact-icon"></i></a>
+                </div>
+                <div class="col s6 m3">
+                    <a href="https://www.linkedin.com/in/ryan-case-2591ba168/"><i class="fab fa-linkedin contact-icon"></i></a>
+                </div>
+                <div class="col s6 m3">
+                    <a href="https://drive.google.com/file/d/1HupCJwjczxr2HWkzf9bWly3FSQxXbzLQ/view?usp=sharing"><i class="fas fa-file-pdf contact-icon"></i></a>
+                </div>
             </div>
         </div>
-    </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Ryan Tyler Case
+            </div>
+        </div>
+    </footer>
 
 
 

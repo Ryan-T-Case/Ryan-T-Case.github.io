@@ -1,9 +1,25 @@
+/* Sticky Footer */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
 /* Text Styling */
+.heading {
+    text-shadow: 2px 2px 4px #b71c1c;
+    color: white;
+}
+
 .paragraph {
     text-align: justify;
 }
 
-.dev-icons {
+.dev-icons, .contact-icon {
     font-size: 8em;
 }
 
@@ -29,7 +45,7 @@
     height: 1em;
 }
 
-/* Positioning and Sizing */
+/* Card Stuff */
 .card {
     width: 80%;
     margin: 2em;
@@ -57,9 +73,19 @@
     right: 5%;
 }
 
+/* Contact Stuff */
+.contact-icon {
+    margin: 2%;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 600px) {
+    .heading {
+        font-size: 2em;
+        margin: 4% auto;
+    }
+
     .card-content .paragraph {
         font-size: 75%;
     }
