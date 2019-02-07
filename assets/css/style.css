@@ -15,6 +15,11 @@
     font-size: 1.5em;
 }
 
+.card-title {
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #000000;
+}
+
 /* Images */
 #about-img {
     border: 2px solid #36454f;
@@ -29,6 +34,8 @@
     width: 80%;
     margin: 2em;
     height: 40em;
+    border: 2px solid gray;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .card-image {
@@ -38,6 +45,10 @@
 .card-image img {
     height: 20em;
     width: 20em;
+}
+
+.card-content {
+    border-top: 1px solid gray;
 }
 
 .fixed-action-btn {
@@ -50,7 +61,7 @@
 
 @media screen and (max-width: 600px) {
     .card-content .paragraph {
-        font-size: 80%;
+        font-size: 75%;
     }
 
     .card {
