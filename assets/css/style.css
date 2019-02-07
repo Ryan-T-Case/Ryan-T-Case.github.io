@@ -28,6 +28,7 @@
 .card {
     width: 80%;
     margin: 2em;
+    height: 40em;
 }
 
 .card-image {
@@ -43,4 +44,17 @@
     position: absolute;
     bottom: 2%;
     right: 5%;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+    .card-content .paragraph {
+        font-size: 80%;
+    }
+
+    .card {
+        width: 90%;
+        margin: 1em;
+    }
 }
