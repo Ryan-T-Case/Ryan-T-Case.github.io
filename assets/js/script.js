@@ -37,7 +37,7 @@ let projects = [{
     description:"An application styled with Bootstrap, and programmed with jQuery and JavaScript. Firebase Realtime Database is used to store the train data in the scheduler. The application is designed to present the user with data regarding train arrivals, and allow them to add additional trains to the table."
 }, {
     projectName: "NFL GifTastic",
-    imageURL: "assets/img/nfl-logo.jpg",
+    imageURL: "assets/img/nfl-logo.JPG",
     githubURL: "https://github.com/Ryan-T-Case/GifTastic",
     liveAppURL: "https://ryan-t-case.github.io/GifTastic/",
     description: "GifTastic - NFL Edition is an app developed using Giphy's API, along with Bootstrap for styling, and JavaScript and jQuery for the logic and DOM manipulation. All gifs are obtained using an AJAX GET method to obtain properties of the objects in the Giphy API."
