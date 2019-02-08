@@ -51,6 +51,7 @@ let projects = [{
 
 // Handle these functions once the page loads
 $(document).ready(function () {
+    $('.parallax').parallax();
     collapsibleExpandable();
     $('.tooltipped').tooltip();
     renderProjects();
