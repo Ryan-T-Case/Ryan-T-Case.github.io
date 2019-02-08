@@ -34,7 +34,7 @@ let projects = [{
     imageURL: "assets/img/train-logo.png",
     githubURL: "https://github.com/Ryan-T-Case/train-scheduler",
     liveAppURL: "https://ryan-t-case.github.io/train-scheduler/",
-    description:"An application styled with Bootstrap, and programmed with jQuery and JavaScript. Firebase Realtime Database is used to store the train data in the scheduler. The application is designed to present the user with data regarding train arrivals, and allow them to add additional trains to the table."
+    description: "An application styled with Bootstrap, and programmed with jQuery and JavaScript. Firebase Realtime Database is used to store the train data in the scheduler. The application is designed to present the user with data regarding train arrivals, and allow them to add additional trains to the table."
 }, {
     projectName: "NFL GifTastic",
     imageURL: "assets/img/nfl-logo.JPG",
@@ -51,6 +51,7 @@ let projects = [{
 
 // Handle these functions once the page loads
 $(document).ready(function () {
+    heading1();
     $('.parallax').parallax();
     collapsibleExpandable();
     $('.tooltipped').tooltip();
@@ -66,11 +67,34 @@ const collapsibleExpandable = () => {
     });
 }
 
+// Typed.js Functions
+
+const heading1 = () => {
+    var options = {
+        strings: ["Hi, my name is Ryan Case."],
+        typeSpeed: 70
+    }
+
+    var typed = new Typed(".heading1", options);
+
+    setTimeout(function(){ heading2(); }, 3000);
+}
+
+const heading2 = () => {
+    var options = {
+        strings: ["I am a Full-Stack Web Developer."],
+        typeSpeed: 70
+    }
+
+    var typed = new Typed(".heading2", options);
+}
+
+
 const renderProjects = () => {
     projects.forEach(function (project) {
         $(".card-container").append(`
         <div class="col s12 l6">
-            <div class="card">
+            <div class="card red lighten-5">
                 <div class="card-image">
                     <img src="${project.imageURL}" class="responsive-img"
                         alt="Project Screenshot">
@@ -92,7 +116,7 @@ const renderProjects = () => {
                         </ul>
                     </div>
                 </div>
-                <div class="card-content">
+                <div class="card-content red lighten-5">
                     <p class="paragraph">${project.description}</p>
                 </div>
             </div>

@@ -6,7 +6,7 @@ html {
 }
 body {
     display: flex;
-    min-height: 100vh;
+    max-height: 100%;
     flex-direction: column;
 }
 
@@ -21,9 +21,10 @@ main {
 }
 
 /* Text Styling */
-.heading {
+.heading1, .heading2 {
     text-shadow: 2px 2px 4px #b71c1c;
     color: white;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .paragraph {
@@ -44,7 +45,14 @@ main {
 
 .card-title {
     font-weight: bolder;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px indigo;
+    background-color: #e8eaf6;
+    border-radius: 30px;
+    opacity: .5;
+    font-size: .5em;
+    line-height: .3em;
+    height: 8%;
+    font-family: 'Source Code Pro', monospace;
 }
 
 /* Images */
@@ -98,7 +106,7 @@ main {
 /* Media Queries */
 
 @media screen and (max-width: 600px) {
-    .heading {
+    .heading1, .heading2 {
         font-size: 2em;
         margin: 4% auto;
     }
@@ -110,6 +118,12 @@ main {
     .card {
         width: 90%;
         margin: 1em;
+    }
+
+    .card .card-title {
+        height: 23%;
+        line-height: 1em;
+        font-size: 1em;
     }
 
     .parallax-container {
