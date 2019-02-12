@@ -76,7 +76,7 @@ const heading1 = () => {
     }
 
     var typed = new Typed(".heading1", options);
-
+    $('.typed-cursor').hide();
     setTimeout(function(){ heading2(); }, 3000);
 }
 
@@ -87,6 +87,7 @@ const heading2 = () => {
     }
 
     var typed = new Typed(".heading2", options);
+    $('.typed-cursor').hide();
 }
 
 
