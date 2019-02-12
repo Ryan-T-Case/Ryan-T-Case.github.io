@@ -10,7 +10,7 @@ _________________________________________________
 
 ## Overview
 
-This is mobile-responsive professional portfolio built to showcase my web development skills. The primary technologies used include pure CSS, vanilla JS, Materlialize, jQuery, Typed.js, and Devicon. Feel free to check out my work!
+This is mobile-responsive professional portfolio built to showcase my web development skills. The primary technologies used include CSS, vanilla JS, Materlialize, jQuery, Typed.js, and Devicon. Feel free to check out my work!
 _________________________________________________
 
 ## Author
