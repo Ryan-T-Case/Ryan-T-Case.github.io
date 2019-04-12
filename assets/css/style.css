@@ -116,6 +116,12 @@ main {
 
 /* Media Queries */
 
+@media screen and (max-width: 740px) {
+    .card .card-title {
+        visibility: hidden;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .heading1, .heading2 {
         font-size: 2em;
@@ -129,12 +135,6 @@ main {
     .card {
         width: 90%;
         margin: 1em;
-    }
-
-    .card .card-title {
-        height: 23%;
-        line-height: 1em;
-        font-size: 1em;
     }
 
     .parallax-container {
