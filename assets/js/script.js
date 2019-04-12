@@ -98,6 +98,9 @@ const checkScreenSize = () => {
     if (newWindowWidth < 481) {
         $(".banner").attr("src", "./assets/img/banner_smaller.jpeg")
     }
+    else if (newWindowWidth < 1000) {
+        $(".banner").attr("src", "./assets/img/banner_small.jpeg")
+    }
     else
     {
         $(".banner").attr("src", "./assets/img/banner.jpeg")
