@@ -56,6 +56,7 @@ $(document).ready(function () {
     collapsibleExpandable();
     $('.tooltipped').tooltip();
     renderProjects();
+    responsiveParallaxFix();
 });
 
 // Materialize JS Component Functions
@@ -88,6 +89,28 @@ const heading2 = () => {
 
     var typed = new Typed(".heading2", options);
     $('.typed-cursor').hide();
+}
+
+// Change parallax image source on mobile
+
+const checkScreenSize = () => {
+    var newWindowWidth = $(window).width();
+    if (newWindowWidth < 481) {
+        $(".banner").attr("src", "./assets/img/banner_smaller.jpeg")
+    }
+    else
+    {
+        $(".banner").attr("src", "./assets/img/banner.jpeg")
+    }
+}
+
+const responsiveParallaxFix = () => {
+    $(window).on("resize", function (e) {
+        checkScreenSize();
+    });
+
+    checkScreenSize();
+
 }
 
 
